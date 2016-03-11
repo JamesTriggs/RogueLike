@@ -56,34 +56,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 20);
+            this.label1.Location = new System.Drawing.Point(16, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 17);
+            this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hit Points: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 46);
+            this.label2.Location = new System.Drawing.Point(16, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(43, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Gold: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 74);
+            this.label3.Location = new System.Drawing.Point(16, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.Size = new System.Drawing.Size(80, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Experience: ";
             // 
             // lblHitPoints
             // 
             this.lblHitPoints.AutoSize = true;
-            this.lblHitPoints.Location = new System.Drawing.Point(110, 19);
+            this.lblHitPoints.Location = new System.Drawing.Point(96, 18);
             this.lblHitPoints.Name = "lblHitPoints";
             this.lblHitPoints.Size = new System.Drawing.Size(0, 17);
             this.lblHitPoints.TabIndex = 3;
@@ -91,7 +91,7 @@
             // lblGold
             // 
             this.lblGold.AutoSize = true;
-            this.lblGold.Location = new System.Drawing.Point(110, 45);
+            this.lblGold.Location = new System.Drawing.Point(96, 42);
             this.lblGold.Name = "lblGold";
             this.lblGold.Size = new System.Drawing.Size(0, 17);
             this.lblGold.TabIndex = 4;
@@ -99,7 +99,7 @@
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
-            this.lblExperience.Location = new System.Drawing.Point(110, 73);
+            this.lblExperience.Location = new System.Drawing.Point(96, 68);
             this.lblExperience.Name = "lblExperience";
             this.lblExperience.Size = new System.Drawing.Size(0, 17);
             this.lblExperience.TabIndex = 5;
@@ -107,7 +107,7 @@
             // lblLevel
             // 
             this.lblLevel.AutoSize = true;
-            this.lblLevel.Location = new System.Drawing.Point(110, 99);
+            this.lblLevel.Location = new System.Drawing.Point(96, 93);
             this.lblLevel.Name = "lblLevel";
             this.lblLevel.Size = new System.Drawing.Size(0, 17);
             this.lblLevel.TabIndex = 6;
@@ -115,42 +115,42 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 100);
+            this.label4.Location = new System.Drawing.Point(16, 94);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(46, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Level: ";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(617, 531);
+            this.label5.Location = new System.Drawing.Point(540, 498);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 17);
+            this.label5.Size = new System.Drawing.Size(85, 17);
             this.label5.TabIndex = 8;
             this.label5.Text = "Select Action";
             // 
             // cboWeapons
             // 
             this.cboWeapons.FormattingEnabled = true;
-            this.cboWeapons.Location = new System.Drawing.Point(369, 559);
+            this.cboWeapons.Location = new System.Drawing.Point(323, 524);
             this.cboWeapons.Name = "cboWeapons";
-            this.cboWeapons.Size = new System.Drawing.Size(121, 24);
+            this.cboWeapons.Size = new System.Drawing.Size(106, 23);
             this.cboWeapons.TabIndex = 9;
             // 
             // cboPotions
             // 
             this.cboPotions.FormattingEnabled = true;
-            this.cboPotions.Location = new System.Drawing.Point(369, 593);
+            this.cboPotions.Location = new System.Drawing.Point(323, 556);
             this.cboPotions.Name = "cboPotions";
-            this.cboPotions.Size = new System.Drawing.Size(121, 24);
+            this.cboPotions.Size = new System.Drawing.Size(106, 23);
             this.cboPotions.TabIndex = 10;
             // 
             // btnSouth
             // 
-            this.btnSouth.Location = new System.Drawing.Point(493, 487);
+            this.btnSouth.Location = new System.Drawing.Point(431, 457);
             this.btnSouth.Name = "btnSouth";
-            this.btnSouth.Size = new System.Drawing.Size(75, 23);
+            this.btnSouth.Size = new System.Drawing.Size(66, 22);
             this.btnSouth.TabIndex = 11;
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
@@ -158,9 +158,9 @@
             // 
             // btnWest
             // 
-            this.btnWest.Location = new System.Drawing.Point(412, 457);
+            this.btnWest.Location = new System.Drawing.Point(360, 428);
             this.btnWest.Name = "btnWest";
-            this.btnWest.Size = new System.Drawing.Size(75, 23);
+            this.btnWest.Size = new System.Drawing.Size(66, 22);
             this.btnWest.TabIndex = 12;
             this.btnWest.Text = "West";
             this.btnWest.UseVisualStyleBackColor = true;
@@ -168,9 +168,9 @@
             // 
             // btnNorth
             // 
-            this.btnNorth.Location = new System.Drawing.Point(493, 433);
+            this.btnNorth.Location = new System.Drawing.Point(431, 406);
             this.btnNorth.Name = "btnNorth";
-            this.btnNorth.Size = new System.Drawing.Size(75, 23);
+            this.btnNorth.Size = new System.Drawing.Size(66, 22);
             this.btnNorth.TabIndex = 13;
             this.btnNorth.Text = "North";
             this.btnNorth.UseVisualStyleBackColor = true;
@@ -178,9 +178,9 @@
             // 
             // btnEast
             // 
-            this.btnEast.Location = new System.Drawing.Point(573, 457);
+            this.btnEast.Location = new System.Drawing.Point(501, 428);
             this.btnEast.Name = "btnEast";
-            this.btnEast.Size = new System.Drawing.Size(75, 23);
+            this.btnEast.Size = new System.Drawing.Size(66, 22);
             this.btnEast.TabIndex = 14;
             this.btnEast.Text = "East";
             this.btnEast.UseVisualStyleBackColor = true;
@@ -188,9 +188,9 @@
             // 
             // btnUseWeapon
             // 
-            this.btnUseWeapon.Location = new System.Drawing.Point(620, 559);
+            this.btnUseWeapon.Location = new System.Drawing.Point(542, 524);
             this.btnUseWeapon.Name = "btnUseWeapon";
-            this.btnUseWeapon.Size = new System.Drawing.Size(75, 23);
+            this.btnUseWeapon.Size = new System.Drawing.Size(66, 22);
             this.btnUseWeapon.TabIndex = 15;
             this.btnUseWeapon.Text = "Use";
             this.btnUseWeapon.UseVisualStyleBackColor = true;
@@ -198,9 +198,9 @@
             // 
             // btnUsePotion
             // 
-            this.btnUsePotion.Location = new System.Drawing.Point(620, 593);
+            this.btnUsePotion.Location = new System.Drawing.Point(542, 556);
             this.btnUsePotion.Name = "btnUsePotion";
-            this.btnUsePotion.Size = new System.Drawing.Size(75, 23);
+            this.btnUsePotion.Size = new System.Drawing.Size(66, 22);
             this.btnUsePotion.TabIndex = 16;
             this.btnUsePotion.Text = "Use";
             this.btnUsePotion.UseVisualStyleBackColor = true;
@@ -208,17 +208,17 @@
             // 
             // rtbMessages
             // 
-            this.rtbMessages.Location = new System.Drawing.Point(347, 130);
+            this.rtbMessages.Location = new System.Drawing.Point(304, 122);
             this.rtbMessages.Name = "rtbMessages";
-            this.rtbMessages.Size = new System.Drawing.Size(360, 286);
+            this.rtbMessages.Size = new System.Drawing.Size(316, 268);
             this.rtbMessages.TabIndex = 17;
             this.rtbMessages.Text = "";
             // 
             // rtbLocation
             // 
-            this.rtbLocation.Location = new System.Drawing.Point(347, 19);
+            this.rtbLocation.Location = new System.Drawing.Point(304, 18);
             this.rtbLocation.Name = "rtbLocation";
-            this.rtbLocation.Size = new System.Drawing.Size(360, 105);
+            this.rtbLocation.Size = new System.Drawing.Size(316, 99);
             this.rtbLocation.TabIndex = 18;
             this.rtbLocation.Text = "";
             // 
@@ -227,16 +227,17 @@
             this.dgvInventory.AllowUserToAddRows = false;
             this.dgvInventory.AllowUserToDeleteRows = false;
             this.dgvInventory.AllowUserToResizeRows = false;
+            this.dgvInventory.BackgroundColor = System.Drawing.Color.Azure;
             this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventory.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvInventory.Enabled = false;
-            this.dgvInventory.Location = new System.Drawing.Point(16, 130);
+            this.dgvInventory.Location = new System.Drawing.Point(14, 122);
             this.dgvInventory.MultiSelect = false;
             this.dgvInventory.Name = "dgvInventory";
             this.dgvInventory.ReadOnly = true;
             this.dgvInventory.RowHeadersVisible = false;
             this.dgvInventory.RowTemplate.Height = 24;
-            this.dgvInventory.Size = new System.Drawing.Size(312, 309);
+            this.dgvInventory.Size = new System.Drawing.Size(273, 290);
             this.dgvInventory.TabIndex = 19;
             // 
             // dgvQuests
@@ -244,23 +245,25 @@
             this.dgvQuests.AllowUserToAddRows = false;
             this.dgvQuests.AllowUserToDeleteRows = false;
             this.dgvQuests.AllowUserToResizeRows = false;
+            this.dgvQuests.BackgroundColor = System.Drawing.Color.Azure;
             this.dgvQuests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQuests.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvQuests.Enabled = false;
-            this.dgvQuests.Location = new System.Drawing.Point(16, 446);
+            this.dgvQuests.Location = new System.Drawing.Point(14, 418);
             this.dgvQuests.MultiSelect = false;
             this.dgvQuests.Name = "dgvQuests";
             this.dgvQuests.ReadOnly = true;
             this.dgvQuests.RowHeadersVisible = false;
             this.dgvQuests.RowTemplate.Height = 24;
-            this.dgvQuests.Size = new System.Drawing.Size(312, 189);
+            this.dgvQuests.Size = new System.Drawing.Size(273, 177);
             this.dgvQuests.TabIndex = 20;
             // 
             // SuperAdventure
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 645);
+            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.ClientSize = new System.Drawing.Size(627, 605);
             this.Controls.Add(this.dgvQuests);
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.rtbLocation);
@@ -282,6 +285,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Candara", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "SuperAdventure";
             this.Text = "My Game";
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
