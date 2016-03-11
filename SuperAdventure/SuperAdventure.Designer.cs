@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SuperAdventure));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(16, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 17);
@@ -65,6 +67,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(16, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 17);
@@ -74,6 +77,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(16, 69);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 17);
@@ -115,6 +119,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(16, 94);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 17);
@@ -124,6 +129,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(540, 498);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 17);
@@ -148,6 +154,7 @@
             // 
             // btnSouth
             // 
+            this.btnSouth.ForeColor = System.Drawing.Color.Black;
             this.btnSouth.Location = new System.Drawing.Point(431, 457);
             this.btnSouth.Name = "btnSouth";
             this.btnSouth.Size = new System.Drawing.Size(66, 22);
@@ -158,6 +165,7 @@
             // 
             // btnWest
             // 
+            this.btnWest.ForeColor = System.Drawing.Color.Black;
             this.btnWest.Location = new System.Drawing.Point(360, 428);
             this.btnWest.Name = "btnWest";
             this.btnWest.Size = new System.Drawing.Size(66, 22);
@@ -168,6 +176,7 @@
             // 
             // btnNorth
             // 
+            this.btnNorth.ForeColor = System.Drawing.Color.Black;
             this.btnNorth.Location = new System.Drawing.Point(431, 406);
             this.btnNorth.Name = "btnNorth";
             this.btnNorth.Size = new System.Drawing.Size(66, 22);
@@ -178,6 +187,7 @@
             // 
             // btnEast
             // 
+            this.btnEast.ForeColor = System.Drawing.Color.Black;
             this.btnEast.Location = new System.Drawing.Point(501, 428);
             this.btnEast.Name = "btnEast";
             this.btnEast.Size = new System.Drawing.Size(66, 22);
@@ -188,6 +198,7 @@
             // 
             // btnUseWeapon
             // 
+            this.btnUseWeapon.ForeColor = System.Drawing.Color.Black;
             this.btnUseWeapon.Location = new System.Drawing.Point(542, 524);
             this.btnUseWeapon.Name = "btnUseWeapon";
             this.btnUseWeapon.Size = new System.Drawing.Size(66, 22);
@@ -198,6 +209,7 @@
             // 
             // btnUsePotion
             // 
+            this.btnUsePotion.ForeColor = System.Drawing.Color.Black;
             this.btnUsePotion.Location = new System.Drawing.Point(542, 556);
             this.btnUsePotion.Name = "btnUsePotion";
             this.btnUsePotion.Size = new System.Drawing.Size(66, 22);
@@ -263,6 +275,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(627, 605);
             this.Controls.Add(this.dgvQuests);
             this.Controls.Add(this.dgvInventory);
@@ -286,9 +300,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Candara", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "SuperAdventure";
             this.Text = "My Game";
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
             this.ResumeLayout(false);
