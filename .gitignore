@@ -1,0 +1,30 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs and intermediate files
+**/bin/
+**/obj/
+Debug/
+Release/
+x64/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.log
+*.tlog
+*.idb
+*.pch
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
