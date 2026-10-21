@@ -28,3 +28,9 @@ x64/
 # OS files
 .DS_Store
 Thumbs.db
+
+# CMake and local captures
+build/
+build-*/
+CMakeUserPresets.json
+*.bmp
